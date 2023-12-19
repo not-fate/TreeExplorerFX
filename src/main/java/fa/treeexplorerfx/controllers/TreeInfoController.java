@@ -1,4 +1,4 @@
-package fa.treeexplorerfx;
+package fa.treeexplorerfx.controllers;
 
 import Trees.Tree;
 import fa.treeexplorerfx.models.TreeExplorerModel;

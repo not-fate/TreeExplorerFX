@@ -6,7 +6,7 @@
 <?import javafx.scene.text.*?>
 
 <?import javafx.scene.control.skin.ProgressIndicatorSkin.IndeterminateSpinner.IndicatorPaths?>
-<VBox xmlns:fx="http://javafx.com/fxml/1" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="fa.treeexplorerfx.TreeExplorerController">
+<VBox xmlns:fx="http://javafx.com/fxml/1" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="fa.treeexplorerfx.controllers.TreeExplorerController">
     <HBox spacing="10" alignment="CENTER">
         <padding>
             <Insets top="10" />

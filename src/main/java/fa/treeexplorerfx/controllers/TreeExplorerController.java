@@ -1,7 +1,8 @@
-package fa.treeexplorerfx;
+package fa.treeexplorerfx.controllers;
 
 import Trees.Row;
 import Trees.TreeBuilder;
+import fa.treeexplorerfx.Connector;
 import fa.treeexplorerfx.models.TreeExplorerModel;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -102,7 +103,7 @@ public class TreeExplorerController {
 
     private void showTreeInfo(int treeID) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("TreeInfo.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fa/treeexplorerfx/views/TreeInfo.fxml"));
             Stage stage = new Stage();
 
             stage.setTitle("Tree ID: " + treeID);

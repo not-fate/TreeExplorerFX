@@ -2,6 +2,7 @@ package Trees;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Row {
     public int id;
     public int parent_id;
