@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" stylesheets="@style.css" fx:controller="fa.treeexplorerfx.TreeInfoController">
+    <BorderPane>
+        <top>
+            <HBox styleClass="btnPanel" spacing="10" alignment="CENTER">
+                <padding>
+                    <Insets top="5" bottom="5" />
+                </padding>
+                <Button fx:id="deleteNodeBtn" disable="true" onAction="#handleDeleteNode" prefHeight="26.0" prefWidth="103.0" text="Delete node" />
+                <Button fx:id="addNodeBtn" disable="true" onAction="#handleAddNode" prefHeight="26.0" prefWidth="103.0" text="Add child">
+               <opaqueInsets>
+                  <Insets left="100.0" />
+               </opaqueInsets></Button>
+            </HBox>
+        </top>
+        <center>
+            <ScrollPane>
+                <padding>
+                    <Insets top="10" />
+                </padding>
+                <TreeView fx:id="treeView" prefHeight="250.0" prefWidth="400">
+                </TreeView>
+            </ScrollPane>
+        </center>
+    </BorderPane>
+</VBox>

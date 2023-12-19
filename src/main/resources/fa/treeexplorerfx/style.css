@@ -1,0 +1,21 @@
+#treesScrollPane {
+-fx-background-color: transparent;
+-fx-padding: 10px;
+-fx-pref-width: 200px;
+
+}
+
+.TreeView {
+-fx-background-color: transparent;
+}
+
+#treesPanel {
+-fx-padding: 10px;
+}
+
+.trees {
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
